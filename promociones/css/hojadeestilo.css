@@ -1,0 +1,336 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #D3B6B7;
+}
+body {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+
+
+#CONTENEDOR {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+#CONTENEDOR header {
+    width: 100%;
+    height: 15vh;
+    background-color: #614546;
+    float: left;
+    position: fixed;
+    z-index: 100;
+    -webkit-box-shadow: 0px 0px 26px;
+    box-shadow: 0px 0px 26px;
+}
+#CONTENEDOR header #LOGO {
+    height: 15vh;
+    width: 30%;
+    background-color: #FFFFFF;
+    float: left;
+    background-image: url(../../img/logo3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 45% 0%;
+}
+header #LOGO img {
+    width: 44%;
+    height: 15vh;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 27%;
+    position: relative;
+    left: 0%;
+    float: left;
+}
+
+
+#CONTENEDOR header #BARRA {
+    width: 70%;
+    height: 10vh;
+    background-color: #CDA5A6;
+    float: left;
+    text-align: center;
+    line-height: 10vh;
+    text-decoration: none;
+}
+header #BARRA ul {
+    list-style-image: none;
+    list-style-type: none;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000000;
+}
+#BARRA ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#BARRA ul #B1 {
+    width: 33.3%;
+    height: 10vh;
+    background-color: #C8C0C0;
+    float: left;
+    color: #000000;
+}
+#BARRA ul #B2 {
+    width: 33.3%;
+    height: 10vh;
+    background-color: #C8C0C0;
+    float: left;
+    color: #000000;
+}
+#BARRA ul #B3 {
+    float: left;
+    width: 33.3%;
+    height: 10vh;
+    background-color: #C8C0C0;
+    color: #000000;
+}
+#BARRA ul #B1:hover, #BARRA ul #B2:hover, #BARRA ul #B3:hover, #BARRA ul #B4:hover {
+    background-color: #65181A;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    color: #FFFFFF;
+}
+#CONTENEDOR main {
+    width: 100%;
+    background-color: #D3B6B7;
+    float: left;
+    height: 350vh;
+    margin-top: 10vh;
+    background-image: url(../../img/f_main-01.svg);
+}
+#CONTENEDOR main #PROM {
+    background-color: #F1DADA;
+    width: 100%;
+    height: 25vh;
+    float: left;
+    z-index: 100;
+    background-image: -webkit-linear-gradient(270deg,rgba(240,171,172,1.00) 0%,rgba(241,218,218,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(240,171,172,1.00) 0%,rgba(241,218,218,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(240,171,172,1.00) 0%,rgba(241,218,218,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(240,171,172,1.00) 0%,rgba(241,218,218,1.00) 100%);
+}
+main #PROM h1 {
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    float: left;
+    text-align: center;
+    line-height: 10vh;
+    display: block;
+    background-color: #FFFFFF;
+    z-index: 100;
+    color: #000000;
+}
+
+
+main #PROM h2 {
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    color: #000000;
+    font-size: 150%;
+    font-weight: normal;
+    line-height: 134%;
+    float: left;
+    margin-top: 17vh;
+}
+#CONTENEDOR main #FOTOS {
+    width: 100%;
+    height: 290vh;
+    margin-top: 20%;
+    list-style-image: none;
+    list-style-type: none;
+    background-image: -webkit-linear-gradient(270deg,rgba(241,218,218,1.00) 83.32%,rgba(238,170,170,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(241,218,218,1.00) 83.32%,rgba(238,170,170,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(241,218,218,1.00) 83.32%,rgba(238,170,170,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(241,218,218,1.00) 83.32%,rgba(238,170,170,1.00) 100%);
+}
+#FOTOS #F1 #F1A {
+    width: 30%;
+    height: 75vh;
+    float: left;
+    -webkit-box-shadow: 0px 0;
+    box-shadow: 0px 0;
+    list-style-image: none;
+    list-style-type: none;
+}
+
+
+#F1 #F1A img {
+    -webkit-box-shadow: 0px 4px 9px;
+    box-shadow: 0px 4px 9px;
+    width: 80%;
+    height: auto;
+    float: left;
+    left: 5%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 12vh;
+    margin-left: 14%;
+    list-style-image: none;
+    list-style-type: none;
+}
+#FOTOS #F1 #F1B {
+    width: 30%;
+    height: 75vh;
+    float: left;
+    list-style-image: none;
+    list-style-type: none;
+}
+
+#F1 #F1B img {
+    width: 80%;
+    height: auto;
+    margin-left: 1%;
+    margin-top: 12vh;
+    text-shadow: 0px px;
+    -webkit-box-shadow: 0px 4px 9px;
+    box-shadow: 0px 4px 9px;
+}
+#FOTOS #F1 #F1C {
+    width: 40%;
+    height: 75vh;
+    float: left;
+    list-style-image: none;
+    list-style-type: none;
+}
+
+#F1 #F1C h1 {
+    text-align: center;
+    margin-top: 24%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: 15%;
+    font-size: 200%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    list-style-type: none;
+    list-style-image: none;
+    color: #000000;
+}
+#F1 #F1C h2 {
+    text-align: center;
+    margin-right: 15%;
+    font-size: 118%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 5vh;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: 123%;
+    list-style-image: none;
+    list-style-type: none;
+    color: #000000;
+}
+#FOTOS #F1 #F2A {
+    width: 30%;
+    height: 75vh;
+    float: left;
+    list-style-image: none;
+    list-style-type: none;
+}
+
+#F1 #F2A img {
+    width: 77%;
+    margin-left: 15%;
+    list-style-image: none;
+    list-style-type: none;
+    height: auto;
+    margin-top: 15vh;
+    -webkit-box-shadow: 0px 4px 9px;
+    box-shadow: 0px 4px 9px;
+}
+#FOTOS #F1 #F2B {
+    width: 30%;
+    height: 75vh;
+    float: left;
+    list-style-image: none;
+    list-style-type: none;
+}
+
+
+#F1 #F2B img {
+    width: 78%;
+    margin-left: 0%;
+    list-style-image: none;
+    list-style-type: none;
+    height: auto;
+    margin-top: 15vh;
+    -webkit-box-shadow: 0px 4px 9px;
+    box-shadow: 0px 4px 9px;
+}
+#FOTOS #F1 #F2C {
+    height: 70vh;
+    width: 40%;
+    float: left;
+    list-style-type: none;
+    list-style-image: none;
+    margin-top: 10vh;
+}
+#F1 #F2C h1 {
+    text-align: center;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 200%;
+    margin-top: 16%;
+    margin-right: 15%;
+    font-weight: bold;
+    padding-left: 0%;
+    list-style-image: none;
+    list-style-type: none;
+    color: #000000;
+}
+#F1 #F2C h2 {
+    text-align: center;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 118%;
+    line-height: 166%;
+    margin-top: 10%;
+    margin-right: 15%;
+    list-style-image: none;
+    list-style-type: none;
+    color: #000000;
+}
+main #FOTOS #video {
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    margin-top: 37vh;
+    opacity: 1;
+    background-image: url(../imagenes/FLOR1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#FOTOS #video video {
+    width: 71%;
+    margin-top: 12vh;
+    margin-left: 15%;
+    -webkit-box-shadow: 0px 0px 229px #250000;
+    box-shadow: 0px 0px 229px #250000;
+    float: left;
+    position: relative;
+}
+
+
+
+#CONTENEDOR footer {
+    width: 100%;
+    height: 26%;
+    text-align: center;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: medium;
+    padding-top: 17px;
+}

@@ -1,0 +1,292 @@
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+}
+#contenedor {
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+	
+}
+#contenedor header {
+    width: 100%;
+    height: 15vh;
+    float: left;
+    line-height: 15vh;
+    text-align: center;
+	
+}
+#contenedor #logo {
+    width: 35%;
+    height: 15vh;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    float: left;
+    background-image: url(../img/logo3.svg);
+    background-position: 44%;
+    background-repeat: no-repeat;
+    background-position: 44% 0vh;
+    background-size: contain;
+    box-shadow: 10px 20px 20px #000000;
+}
+#contenedor header nav {
+    height: 15vh;
+    width: 65%;
+    float: left;
+}
+header nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    width: 33.3%;
+    height: 15vh;
+    background-color: #C9BEBF;
+    float: left;
+    text-align: center;
+    line-height: 15vh;
+	box-shadow: 10px 20px 20px #000000;
+		
+}
+ul li a {
+    color: #131310;
+    text-decoration: none;
+    display: block;
+
+		
+}
+ul li #home {
+}
+ul li #btn1 {
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+
+ul li #btn1:hover {
+    background-color: #65181A;
+    color: #FFFFFF;
+}
+
+ul li #btn2 {
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+ul li #btn2:hover {
+    background-color: #65181A;
+    color: #FFFFFF;
+}
+
+ul li #btn3 {
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+ul li #btn3:hover {
+    color: #FFFFFF;
+    background-color: #65181A;
+}
+
+#contenedor main {
+    background-color: #000000;
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background-size: 0% 0%;
+    margin: 0 auto;
+    opacity: 1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+#contenedor #main-home {
+    background-color: #000000;
+    height: 133vh;
+    background-image: url(../img/img_home_main-01.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: auto;
+}
+#contenedor #videoenlace {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding-left: 85px;
+}
+#contenedor #main-home #camera {
+    width: 90px;
+    height: auto;
+    margin-top: 620px;
+    margin-left: 200px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    display: block;
+}
+#contenedor #main-home #textos {
+    width: 20%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 115px;
+    margin-top: 20px;
+    float: left;
+}
+#contenedor #main-home #textos2 {
+    width: 20%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 20px;
+    float: left;
+}
+#contenedor #main-home #textos3 {
+    margin-top: 20px;
+    margin-left: 135px;
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+#contenedor #main-home #camera_b {
+    width: 100px;
+    height: auto;
+    margin-top: -75px;
+    margin-left: 580px;
+}
+#contenedor #main-home #camera_c {
+    width: 120px;
+    height: auto;
+    margin-top: -65px;
+    margin-left: 960px;
+}
+#contenedor #audio {
+    width: 90px;
+    margin-top: 160px;
+    margin-left: 475px;
+}
+
+#contenedor main h1 {
+    color: #A3A3A3;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-variant: normal;
+    font-size: 14px;
+    text-align: center;
+    line-height: 140%;
+    width: 35%;
+    height: 40%;
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	}
+#contenedor #nosotros {
+    background-color: #000000;
+    background-image: url(../img/img_main_nosotros-01.svg);
+    height: 860px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 0%;
+}
+#contenedor #nosotros #fotos_main_nosotros {
+    width: 90%;
+    height: 22px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    right: 3%;
+    float: left;
+
+}
+
+
+
+
+#contenedor #nosotros h1 {
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    text-align: left;
+    text-shadow: 1px 1px 10px #000000;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 0 auto;
+    top: 15px;
+    left: -260px;
+}
+#contenedor #nosotros h2 {
+    color: #A3A3A3;
+    font-family: alike;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 121%;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 0 auto;
+    position: relative;
+    top: 20%;
+    left: 21%;
+    width: 74%;
+}
+#contenedor #nosotros img {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    top: 100px;
+    float: left;
+}
+
+
+#contenedor footer {
+    width: 100%;
+    height: 26%;
+    text-align: center;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: medium;
+    padding-top: 17px;
+}
+#contenedor footer div {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding-bottom: 0px;
+}
+#contenedor #mapa {
+    margin-left: 360px;
+    margin-top: 25px;
+}
+
+.flex-container-redes {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto; 
+	padding-top: 90px;
+}
+
+.flex-container-redes > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+}
